@@ -1,0 +1,25 @@
+{
+  "name": "generator-mycro",
+  "version": "0.1.0",
+  "description": "yeoman generator for mycro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "mycro",
+    "restify-microservice",
+    "restify",
+    "microservice"
+  ],
+  "author": "chris ludden",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "yeoman-generator": "^0.20.2"
+  }
+}
