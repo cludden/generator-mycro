@@ -20,7 +20,6 @@ describe('basic tests', function() {
                 return done(err);
             }
             global.request = supertest.agent(mycro.server);
-            global.util = require('../util');
             done();
         });
     });

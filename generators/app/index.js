@@ -65,6 +65,10 @@ module.exports = generators.Base.extend({
 
     writing() {
         this.directory('.', '.');
+        this.fs.copy(
+            this.templatePath('**/.*'),
+            this.destinationRoot()
+        );
 
         ['async', 'joi', 'lodash'].forEach(dep => {
             if (this[dep]) {
