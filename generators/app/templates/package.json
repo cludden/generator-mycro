@@ -9,9 +9,7 @@
     },
     "author": "",
     "license": "UNLICENSED",
-    "dependencies": {
-        "mycro": "^0.2.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "chai": "^3.4.1",
         "grunt": "^0.4.5",

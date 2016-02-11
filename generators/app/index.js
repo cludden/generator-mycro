@@ -69,9 +69,10 @@ module.exports = generators.Base.extend({
             this.templatePath('**/.*'),
             this.destinationRoot()
         );
+        this.npmInstall(['mycro'], {save: true});
 
         ['async', 'joi', 'lodash'].forEach(dep => {
-            if (this[dep]) {
+            if (this.options[dep]) {
                 this.npmInstall([dep], {save: true});
             }
         });
